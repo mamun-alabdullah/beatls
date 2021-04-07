@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.title h2 {
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: -13px;
+    text-transform: uppercase;
+}
+
+/* =============================== header part css start =============================== */
+
+#top-header {
+    background: #0872b9;
+    padding: 10px 0;
+
+}
+
+#top-header .left {
+    width: 50%;
+    color: #e7e7e7;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#top-header .right {
+    width: 50%;
+    text-align: right;
+}
+
+#top-header .right a i {
+    font-size: 14px;
+    color: #e7e7e7;
+    margin-left: 25px;
+    transition: .4s;
+
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+
+#top-header .right a i:hover {
+    color: #353535;
+}
+
+
+/* =============================== header part css end =============================== */
+
+/* =============================== nav part css start =============================== */
+
+#nav-part {
+    padding: 20px 0;
+}
+
+#nav-part .logo {
+    width: 30%;
+}
+
+#nav-part .nav-item {
+    width: 70%;
+    text-align: right;
+
+}
+
+#nav-part .nav-item ul li {
+    display: inline-block;
+    margin-left: 22px;
+    padding-top: 14px;
+}
+
+#nav-part .nav-item ul li a {
+    color: #353535;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    transition: .4s;
+
+}
+
+#nav-part .nav-item ul li a:hover {
+    color: #0872b9;
+}
+
+/* =============================== nav part css end =============================== */
+
+/* =============================== banner part css start =============================== */
+
+#Banner-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+#Banner-part .overlay {
+    background: rgba(0, 0, 0, .6);
+    text-align: right;
+    padding: 88px 0;
+}
+
+#Banner-part .overlay h3 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    /* margin-bottom: 15px; */
+}
+
+#Banner-part .overlay h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+#Banner-part .overlay p {
+    width: 450px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+#Banner-part .overlay a {
+    margin-left: 22px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 9px 16px;
+    font-size: 14px;
+    font-weight: 500px;
+    font-family: 'Oswald', sans-serif;
+    transition: .5s;
+
+}
+
+#Banner-part .overlay a:hover {
+    color: #ffffff;
+    background: #0872b9;
+    border: 2px solid #0872b9;
+}
+
+/* =============================== banner part css end =============================== */
+
+/* =============================== about part css start =============================== */
+
+#about-part {
+    padding: 60px 0;
+}
+
+#about-part .image {
+    width: 40%;
+}
+
+#about-part .image img {
+    width: 85%;
+}
+
+#about-part .detiels {
+    width: 60%;
+    padding-top: 17px;
+}
+
+#about-part .detiels p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+}
+
+
+/* =============================== about part css end =============================== */
+
+/* =============================== service part css start =============================== */
+
+#service-part {
+    padding-bottom: 60px;
+}
+
+#service-part .main-service {
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+#service-part .item {
+    width: 30%;
+    /* height: 200px; */
+    background: #f1f1f1;
+    position: relative;
+    transition: .4s;
+    text-align: center;
+    padding: 22px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+#service-part .item h3 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: #353535;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+#service-part .item p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+    color: #555555;
+}
+
+#service-part .item .round {
+    width: 95px;
+    height: 95px;
+    background: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-part .item .round .round2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+#service-part .item .round .round2 .round3 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+
+}
+
+#service-part .item:hover {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.29);
+}
+
+#service-part .item:hover .round .round2 {
+    border: 2px solid #5bc5f4;
+}
+
+#service-part .item:hover .round .round2 .round3 {
+    background: #5bc5f4;
+}
+
+/* =============================== service part css end =============================== */
+
+/* =============================== portfolio part css Start =============================== */
+#Portfolio-part .gallery {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#Portfolio-part .gallery ul {
+    justify-content: space-between;
+
+    display: flex;
+}
+
+#Portfolio-part .gallery ul li {
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Portfolio-part .gallery ul li:nth-child(even) {
+    flex-direction: column-reverse;
+}
+
+#Portfolio-part .gallery ul li img {
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 30px; */
+}
+
+#Portfolio-part .gallery ul li .item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#Portfolio-part .gallery ul li .item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .4s;
+}
+
+#Portfolio-part .gallery ul li .item .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Portfolio-part .gallery ul li .item .overlay:hover {
+    opacity: 1;
+}
+
+
+#Portfolio-part .gallery ul li .item .overlay .round {
+    width: 50px;
+    height: 50px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 53px;
+}
+
+#Portfolio-part .gallery ul li .item .overlay .round i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* =============================== portfolio part css end =============================== */
+
+/* =============================== team part css start =============================== */
+#team-part .team-main {
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#team-part .main .item {
+    width: 24%;
+    text-align: center;
+    transition: .6s;
+    position: relative;
+
+}
+
+#team-part .main .item img {
+    width: 100%;
+}
+
+#team-part .item h2 {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+#team-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#team-part .item:hover img {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.35);
+}
+
+#team-part .item:hover h2 {
+    color: #5bc5f4;
+}
+
+#team-part .item .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 88%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    opacity: 0;
+    transition: .9s;
+    background: rgba(0, 0, 0, .6);
+}
+
+#team-part .item:hover .overlay {
+    opacity: 1;
+    width: 35%;
+}
+
+#team-part .item .overlay i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    transition: .6s;
+}
+
+#team-part .item .overlay i:hover {
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;
+}
+
+
+/* =============================== team part css end =============================== */
+
+/* =============================== testimonial part css end =============================== */
+
+#Testimonial {
+    padding-bottom: 60px;
+}
+
+#Testimonial .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Testimonial .main .item {
+    margin-top: 30px;
+    width: 48%;
+    /* height: 300px; */
+    /* background: chocolate; */
+    text-align: center;
+}
+
+#Testimonial .main .item img {
+    margin-bottom: 35px;
+    width: 85px;
+    height: 85px;
+}
+
+#Testimonial .main .item .box {
+    width: 100%;
+    /* height: 175px; */
+    background: #f1f1f1;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#Testimonial .main .item .box .arrow {
+    width: 45px;
+    height: 45px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+#Testimonial .main .item .box h3 {
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#Testimonial .main .item .box i {
+    font-size: 13px;
+    color: #5bc5f4;
+    letter-spacing: 3px;
+    padding: 10px 0;
+
+
+}
+
+#Testimonial .main .item .box h5 {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    margin-bottom: 12px;
+}
+
+#Testimonial .main .item .box p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    line-height: 24px;
+}
+
+/* =============================== testimonial-part css end =============================== */
+
+/* =============================== footer part css start =============================== */
+
+#footer-part {
+    width: 100%;
+    /* height: 500px; */
+    background: #353535;
+
+}
+
+#footer-part h5 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    margin-top: 33px;
+    margin-bottom: 42px;
+}
+
+
+#footer-part .footer-main {
+    display: flex;
+}
+
+
+#footer-part .logo {
+    width: 27%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+#footer-part .logo img {
+    margin-top: 25px;
+}
+
+#footer-part .logo p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px 0;
+    line-height: 24px;
+    color: #f1f1f1;
+}
+
+
+#footer-part .contact {
+    width: 24%;
+}
+
+
+#footer-part .contact .item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#footer-part .contact .item i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #f1f1f1;
+    text-align: center;
+    line-height: 40px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+#footer-part .contact .item .number {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f1;
+    line-height: 24px;
+    width: 120px;
+    margin-left: 12px;
+
+}
+
+#footer-part .contact .item .mail {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f1;
+    line-height: 24px;
+    width: 120px;
+    margin-left: 12px;
+}
+
+
+
+
+#footer-part .links {
+    width: 19%;
+}
+
+#footer-part .item {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#footer-part .links ul {
+    margin-right: 50px;
+}
+
+#footer-part .links ul li {
+    margin-bottom: 22px;
+}
+
+#footer-part .links ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    transition: .4s;
+}
+
+#footer-part .links ul li a:hover {
+    color: #5bc5f4;
+}
+
+
+
+
+#footer-part .flickr {
+    width: 30%;
+}
+
+#footer-part .flickr .gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer-part .flickr .gallery ul li {
+    width: 22%;
+}
+
+#footer-part .flickr .gallery ul li img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* =============================== footer part css end =============================== */
+
+/* =============================== footer bottom part css start =============================== */
+
+#right {
+    padding: 15px;
+    background: #555;
+    text-align: center;
+}
+
+#right p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f1;
+}
+
+#right span {
+    color: #5bc5f4;
+}
+
+/* =============================== footer bottom part css end =============================== */
